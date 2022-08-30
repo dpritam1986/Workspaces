@@ -15,7 +15,7 @@ import com.springbootrestapi.MicroService.CirizenService.Service.CitizenService;
 @RequestMapping("/citizen")
 public class CitizenController {
 	
-	//instead you can Autowire object
+	//Instead you can Autowire object 
 	
 	private CitizenService citizenService;
 	
