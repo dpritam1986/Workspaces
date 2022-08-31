@@ -1,6 +1,6 @@
-import project1 from '../assets/project1.png';
-import project2 from '../assets/project2.png';
-import project3 from '../assets/project3.png';
+import project1 from '../assets/React-JS_logo.jpeg';
+import project2 from '../assets/Springboot-Rest-Api_logo.jpg';
+import project3 from '../assets/SpingBoot-microServ-APIGateway.jpg';
 
 
 const PROJECTS = [
@@ -9,7 +9,7 @@ const PROJECTS = [
 	id : 1,
 	title : 'Example React Application',
 	description  : 'A react App that I built , involving JS and Core web dev consepts!!',
-	link : 'https://github.com/dpritam1986/workspace',
+	link : 'https://github.com/dpritam1986/Workspaces',
 	image : project1
 	},
 	
