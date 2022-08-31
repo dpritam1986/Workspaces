@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class RegularClass{}
+class ComponentClass extends Component{}
+
+const regClassInstance = new RegularClass();
+const compClassInstance = new ComponentClass();
+
+console.log('rgg --> ' + regClassInstance);
+console.log('comp -->' + compClassInstance);
+
+
+class App extends Component{
+	
+	render(){
+		
+		return (
+			 <div>
+			    <h1>Hello!</h1>
+			    <p>My name is Pritam. I am full stack Java developer having 12+ years of experience. </p>
+			     <p>I am always looking forward to working on challanging projects and thrive to knowledge. </p>
+			  </div>
+		)
+	}
 }
 
 export default App;
