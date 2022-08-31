@@ -5,16 +5,18 @@ import React, { Component } from 'react';
 
 class App extends Component{
 	
-	constructor(){
+	state = {displayBio : false};
+	/*constructor(){
 		super();
 		this.state ={ displayBio : false};
 		this.toggleBio = this.toggleBio.bind(this);
 		
-	}
+	}*/
 	
 	
-toggleBio(){
+toggleBio =()=>{
 	this.setState({displayBio : !this.state.displayBio});
+	//this.state.displayBio = !this.state.displayBio;
 }
 	
 	render(){
