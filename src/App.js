@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Projects from './Projects';
 
 
 
@@ -40,6 +41,9 @@ toggleBio =()=>{
 			         </button>
 			          </div>)}
 			     
+			     <hr />
+			     
+			     <Projects />
 			  </div>
 		)
 	}
