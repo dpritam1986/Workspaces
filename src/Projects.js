@@ -8,7 +8,7 @@ class Project extends Component{
 		
 		const{title , image , description , link} = this.props.projectObject;
 		
-		return (		
+		return(		
 			<div style={{display : 'inline-block' , width :300 , margin : 10}}> 
 			
               <h3> {title}</h3>

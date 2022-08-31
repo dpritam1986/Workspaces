@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Projects from './Projects';
+import SocialProfiles from './SocialProfiles';
 
 
 
@@ -44,6 +45,11 @@ toggleBio =()=>{
 			     <hr />
 			     
 			     <Projects />
+			     <hr/>
+			     
+			     <div style={{ marginTop :20 , textAlign : 'center' }}>
+			     <SocialProfiles />
+			     </div>
 			  </div>
 		)
 	}
