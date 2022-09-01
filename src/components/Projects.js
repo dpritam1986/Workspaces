@@ -1,12 +1,13 @@
-import react , {Component} from 'react';
+import react  from 'react';
 import PROJECTS from '../data/projects';
 
-class Project extends Component{
-	
-	render(){
+//class Project extends Component{
+
+const Project = props =>{ 	
+	//render(){
 		
 		
-		const{title , image , description , link} = this.props.projectObject;
+		const{title , image , description , link} = props.projectObject;
 		
 		return(		
 			<div style={{display : 'inline-block' , width :400 , margin : 10}}> 
@@ -19,18 +20,15 @@ class Project extends Component{
          
 		     
 		    </div>)
-	}
+	//}
 }
 
 
 
-class Projects extends Component{
+//class Projects extends Component{
+const Projects = () =>(
 	
-	
-	render(){
-		
-		return(
-			
+	//render(){
 			<div> 
 		     <h2>Highlighted Projects </h2>
 		      <div>
@@ -43,12 +41,8 @@ class Projects extends Component{
 			  </div>
 			</div>
 			
-		)
-		
-		
-	}
+)
+//}
 	
 	
-}
-
 export default Projects;
