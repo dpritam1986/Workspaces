@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Projects from './Projects';
 import SocialProfiles from './SocialProfiles';
-import Profile from './assets/profile.png';
+import Profile from '../assets/profile.png';
 import Title from './Title.js';
 
 

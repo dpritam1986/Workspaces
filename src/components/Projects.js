@@ -1,5 +1,5 @@
 import react , {Component} from 'react';
-import PROJECTS from './data/projects';
+import PROJECTS from '../data/projects';
 
 class Project extends Component{
 	
