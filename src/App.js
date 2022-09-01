@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Projects from './Projects';
 import SocialProfiles from './SocialProfiles';
 import Profile from './assets/profile.png';
+import Title from './Title.js';
 
 
 
@@ -28,7 +29,8 @@ toggleBio =()=>{
 			 <div>
 			    <img src={Profile} alt='profile' className="profile"/> 
 			    <h1>Hello!</h1>
-			    <p>My name is Pritam. I am full stack Java developer having 12+ years of experience. </p>
+			    <p>My name is Pritam. </p>
+			    <Title />
 			     <p>I am always looking forward to working on challanging projects and thrive to knowledge. </p>
                 
                  { this.state.displayBio ? ( 
