@@ -7,17 +7,17 @@ const PROJECTS = [
 	
 	{
 	id : 1,
-	title : 'Example React Application',
-	description  : 'A react App that I built , involving JS and Core web dev consepts!!',
-	link : 'https://github.com/dpritam1986/Workspaces/tree/FrontEndReactCode',
+	title : 'React Application from my portfolio',
+	description  : 'A react app that I built , Involving JS and Core web dev consepts!!',
+	link : 'https://tinyurl.com/eepyzcfw',
 	image : project1
 	},
 	
 	{
 	id : 2,
-	title : 'My Api',
-	description  : 'A RestAPi App that I built , involving GET and POST implementations!!',
-	link : 'https://github.com/dpritam1986/workspace',
+	title : 'My Rest Api,Microservices & Eureka registry ',
+	description  : 'A RestAPI App that I built , Involving GET and POST PUT DELETE implementations!!',
+	link : 'https://github.com/dpritam1986/Workspaces/tree/master',
 	image : project2
 	},
 	
@@ -25,8 +25,8 @@ const PROJECTS = [
 	{
 	id : 3,
 	title : 'API Gateway',
-	description  : 'A API gateway I built , involving URL load balance mapping',
-	link : 'https://github.com/dpritam1986/workspace',
+	description  : 'A API gateway I built , Involving URL load balance mapping',
+	link : 'https://tinyurl.com/ycx3dbhc',
 	image : project3
 	}
 	

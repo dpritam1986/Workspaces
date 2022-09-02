@@ -2,9 +2,10 @@ import react , {Component} from 'react';
 
 const TITLES =[
 	
-	'full stack Java developer having 12+ years of experience.',
-	'a sport lover',
-	'a fitness freak'
+	'I am Full-stack developer with over 12+ years of strong and rich experience in web application development, using Java & J2EE technologies. Very Strong analytical and issues resolving skills',
+	'I have hosted this website in google cloud platform using react js',
+	'All the code base for below pojects available in git repositories , I used different branches to commit code for respective applications'
+
 	
 ];
 
@@ -35,7 +36,7 @@ class Title extends Component{
 		
 		const title = TITLES[this.state.titleIndex];
 		
-		return(<p className={fadeIn ? 'title-fade-in' : 'title-fade-out'}> I am {title}</p>)
+		return(<p className={fadeIn ? 'title-fade-in' : 'title-fade-out'}>{title}</p>)
 	}
 	
 }

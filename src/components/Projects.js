@@ -15,7 +15,7 @@ const Project = props =>{
               <h3> {title}</h3>
               <img src ={image} alt ='profile' style={{width : 200, height:120}}/>
               <p>{description}</p>
-              <a href={link} style={{margin :10}}>{link} </a>
+              <a href={link} style={{margin :10}} target='_blank'>View code for {title} </a>
                             
          
 		     
