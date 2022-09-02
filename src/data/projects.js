@@ -9,7 +9,7 @@ const PROJECTS = [
 	id : 1,
 	title : 'Example React Application',
 	description  : 'A react App that I built , involving JS and Core web dev consepts!!',
-	link : 'https://github.com/dpritam1986/Workspaces',
+	link : 'https://github.com/dpritam1986/Workspaces/tree/FrontEndReactCode',
 	image : project1
 	},
 	
