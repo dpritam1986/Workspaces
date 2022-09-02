@@ -5,7 +5,7 @@ import './App.css'
 
 class App extends Component {
 	
-	state = {deadline : 'December 25 ,',
+	state = {deadline : 'December 25,',
 	          newDeadLine : ''};
 
 
@@ -20,7 +20,9 @@ class App extends Component {
 		return (
 			<div className="App">
 				<div> Countdown to {this.state.deadline} {new Date().getFullYear()}</div>
-				<Clock/>
+				<Clock
+				deadline = {this.state.deadline + ' '+ new Date().getFullYear() }
+				/>
 				<div>
 					<input
 					 placeholder='new date' 
@@ -28,9 +30,12 @@ class App extends Component {
 					/>
 					<button onClick={this.changeDeadline}>Submit </button>
 				</div>
+				
 			</div>
-
+      
 		);
+		
+		 this.setState({deadline : 'December 25,' , newDeadLine : '' });
 	}
 }
 export default App;
