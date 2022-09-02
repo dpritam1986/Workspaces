@@ -33,10 +33,10 @@ componentDidMount(){
 	
 	const days =  Math.floor(time / (1000* 60 * 60 * 24));
 	
-	console.log('sec' , seconds);
+	/*console.log('sec' , seconds);
 	console.log('min' , minutes);
 	console.log('hours' , hours);
-	console.log('days' , days);
+	console.log('days' , days);*/
 	
 	this.setState({days,hours,minutes,seconds});
 }        
