@@ -12,7 +12,7 @@ const Socialprofile = props => {
 		<div style={{ display: 'inline-block', margin: 10 }}>
 
 
-			<a href={link}>  <img src={image} alt='link to profile' style={{ width: 20, height: 20 }} /> </a>
+			<a href={link} target="_blank">  <img src={image} alt='link to profile' style={{ width: 20, height: 20 }}/> </a>
 
 
 		</div>)
