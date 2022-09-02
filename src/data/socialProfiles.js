@@ -25,11 +25,11 @@ const SOCIAL_PROFILES = [
 		image : git		
 	},
 	
-	{
+	/*{
 		id : 4,
 		link : 'https://leetcode.com/rafael1103',
 		image : leetcode		
-	}
+	}*/
 	
 	
 ];
