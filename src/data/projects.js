@@ -1,7 +1,7 @@
 import project1 from '../assets/React-JS_logo.jpeg';
 import project2 from '../assets/Springboot-Rest-Api_logo.jpg';
 import project3 from '../assets/SpingBoot-microServ-APIGateway.jpg';
-
+import project4 from '../assets/MusicMaster.png';
 
 const PROJECTS = [
 	
@@ -28,6 +28,14 @@ const PROJECTS = [
 	description  : 'A API gateway I built , Involving URL load balance mapping',
 	link : 'https://tinyurl.com/ycx3dbhc',
 	image : project3
+	},
+	
+	{
+	id : 4,
+	title : 'Music Master Application',
+	description  : 'A music master application using Spotify API which will search an artist and display some albums,songs , Also added functionality to Play, Pause audio , Click on link below to see demo how application works',
+	link : 'https://tinyurl.com/MusicMasterAppTestScrnRecrd',
+	image : project4
 	}
 	
 ];
