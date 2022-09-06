@@ -7,7 +7,7 @@ const Project = props =>{
 	//render(){
 		
 		
-		const{title , image , description , link} = props.projectObject;
+		const{title , image , description , link , caption} = props.projectObject;
 		
 		return(		
 			<div style={{display : 'inline-block' , width :400 , margin : 10}}> 
@@ -15,7 +15,7 @@ const Project = props =>{
               <h3> {title}</h3>
               <img src ={image} alt ='profile' style={{width : 200, height:120}}/>
               <p>{description}</p>
-              <a href={link} style={{margin :10}} target='_blank'>View code for {title} </a>
+              <a href={link} style={{margin :10}} target='_blank'>{caption} {title} </a>
                             
          
 		     
